@@ -1,0 +1,13 @@
+h1
+{font-size:50px;
+box-shadow: 8px 8px 4px;
+background-color: chartreuse;
+border-radius: 30px;
+text-align: center;}
+
+h2
+{font-size: 40px;
+text-shadow: 5px 5px 5px #aaa;
+position: absolute;
+left: 41%;
+top: 42%;}
