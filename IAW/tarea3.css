@@ -1,0 +1,17 @@
+h1.primer{
+    text-align: center;
+    background-color:hsl(19, 69%, 32%);
+    color:hsl(36, 100%, 50%)
+    }
+
+h1.segun{
+    text-align: center;
+    background-color:rgba(255, 211, 129 , 0.75);
+    color:rgb(255, 0, 0)
+}
+
+h1.tercer{
+    text-align: center;
+    background-color: hsla(0, 0%, 0%, 1);
+    color: rgb(251, 255, 0)
+}
