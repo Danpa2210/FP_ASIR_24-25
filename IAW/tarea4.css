@@ -1,0 +1,9 @@
+h1 {
+    background-color: transparent;
+    background-image: linear-gradient(to left, rgb(70, 144, 255) , rgb(87, 244, 89));
+    }
+
+h2    {
+        background-image: radial-gradient( rgb(222, 222, 62),
+        rgb(255, 255, 44),rgb(255, 44, 16));
+        }
