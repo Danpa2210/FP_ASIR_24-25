@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'edo';
+    src: url(Edo/edo.ttf);
+}
+
+h1{ font-family: 'edo';}
+
+@font-face {
+    font-family: 'micro';
+    src: url(Micro_5/Micro5-Regular.ttf);
+}
+
+h2{ font-family: 'micro';
+    font-size: 40px;}
