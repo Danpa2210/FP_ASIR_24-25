@@ -1,0 +1,5 @@
+*{
+    background-image: url(fondo\ dark\ souls\ 1.jpg),url(fondo\ dark\ souls\ 3.jpg);
+    background-size: 400px,cover;
+    background-repeat: repeat-y,no-repeat;
+}
