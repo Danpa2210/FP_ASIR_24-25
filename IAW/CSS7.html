@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS7</title>
+    <link rel="stylesheet" type="text/css/script" href="tarea7.css">
+
+    <script>
+        function generarNuevoColor(){
+	var simbolos, color;
+	simbolos = "0123456789ABCDEF";
+	color = "#";
+
+	for(var i = 0; i < 6; i++){
+		color = color + simbolos[Math.floor(Math.random() * 16)];
+	}
+
+	document.body.style.background = color;
+	document.getElementById("hexadecimal").innerHTML = color;
+}
+    </script>
+</head>
+<body>
+	<div class="color">
+		<button onclick="generarNuevoColor()">Click Aquí para un color random</button>
+	</div>
+
+
+</body>
+</html>
